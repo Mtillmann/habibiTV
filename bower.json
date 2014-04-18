@@ -1,0 +1,34 @@
+{
+  "name": "habibi",
+  "version": "0.0.1",
+  "description": "hbbtv privacy enhancement and twitter client",
+  "main": "app.js",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "hbbtv",
+    "tv",
+    "twitter"
+  ],
+  "authors": [
+    "martin tillmann <mtillmann@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-css" : "latest",
+    "greensock": "~1.11.5",
+    "icanhaz": "git://github.com/HenrikJoreteg/ICanHaz.js#~0.10.3",
+    "jquery" : "~1.11.0",
+    "hbbtv_template_app" : "git://github.com/sunglim/HbbTV_Application_Template"
+  }
+}

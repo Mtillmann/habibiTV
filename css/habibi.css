@@ -1,0 +1,218 @@
+
+body{
+    position:absolute;
+    height:720px;
+    width: 1280px;
+    top:0;
+    left:0;
+    bottom: 0;
+    right: 0;
+}
+#redbutton{
+    width:40px;
+    height:40px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    position:absolute;
+    bottom:-41px;
+    right:40px;
+    background:url(../img/twitter-logo.png) no-repeat center center;
+}
+
+#tweets{
+    position: absolute;
+    width: 300px;
+    height: 100%;
+    top:0;
+    right:0;
+    bottom:0;
+    overflow: hidden;
+    display:none;
+    /*background:rgba(85,172,238,0.5);*/
+}
+
+#hashtag{
+    width:100%;
+    height:40px;
+    padding:5px 0px 0 0px;
+    position:relative;
+}
+
+#hash{
+    height:40px;
+    width:25px;
+    font-size:40px;
+    line-height:40px;
+    float:left;
+    text-align:right;
+    display:inline-block;
+}
+
+#logo{
+    width:40px;
+    height:40px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    position:absolute;
+    margin-left:5px;
+    background:url(../img/twitter-logo.png) no-repeat center center;
+}
+
+#search{
+    width:165px;
+    margin-left:50px;
+    height:30px;
+    
+    padding:5px;
+    font-size:30px;
+    display:inline-block;
+    float:left;
+    border:none;
+    -webkit-border-radius: 16px 0 0 16px;
+    border-radius:  16px 0 0 16px;
+    background: #A3ACB2; 
+    color:#fff;
+    outline:none;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:#ddd;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:#ddd;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:#ddd;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:#ddd;
+}
+
+#go{
+    height:40px;
+    width:70px;
+    font-size:30px;
+    float:left;
+    display:inline-block;
+    text-align:center;
+    margin:0px;
+    padding:5px;
+    border:none;
+    -webkit-border-radius: 0 16px 16px 0;
+    border-radius:  0 16px 16px 0;
+    background:#A3ACB2 url(../img/search.png) center center no-repeat;
+}
+
+#loading{
+    display:none;
+    position:absolute;
+    top:0;
+    left:0;
+    bottom: 0;
+    right: 0;
+    background: rgba(255,255,255,0.5);
+}
+
+#spinner{
+    position:absolute;
+    left:130px;
+    top:340px;
+    height:40px;
+    width:40px;
+    background:#fff url(../img/loading.gif) center center no-repeat;
+    -webkit-border-radius: 8px;
+    border-radius:  8px;
+}
+
+.tweet{
+    margin:5px;
+    background:#fff;
+    border-color: rgb(238, 238, 238) rgb(221, 221, 221) rgb(187, 187, 187);
+    border-width: 1px;
+    border-style: solid;
+    -webkit-border-radius: 5px;
+    border-radius:  5px;
+    box-shadow: rgba(0, 0, 0, 0.14902) 0px 1px 3px;
+    color:#292f33;
+}
+
+.tweet img{
+    height:32px;
+    width:32px;
+    -webkit-border-radius: 8px;
+    border-radius:  8px;
+    position:absolute;
+    left:-32px;
+}
+
+.tweet .name{
+    font-size:12px;
+    height:32px;
+    position:relative;
+    padding-left:5px;
+    margin:5px 5px 5px 37px;
+}
+
+.tweet .user{
+    font-weight: bolder;
+}
+
+.tweet .handle{
+    font-size:10px;
+    color:#66757f;
+}
+
+.tweet .text{
+    padding:5px;font-size:13px;
+    font-family: Georgia,"Times New Roman",Palatino,serif;
+}
+
+.tweet .date{
+    font-size:11px;
+    padding:5px;
+    color:#66757f;
+}
+
+#keypad{
+    position:absolute;
+    right:0;
+    top:50px;
+    z-index:64;
+    width:300px;
+    float:left;
+    display:none;
+    background:#fff;
+    border-color: rgb(238, 238, 238) rgb(221, 221, 221) rgb(187, 187, 187);
+    border-width: 1px;
+    border-style: solid;
+    -webkit-border-radius: 5px;
+    border-radius:  5px;
+    box-shadow: rgba(0, 0, 0, 0.14902) 0px 1px 3px;
+    color:#292f33;
+}
+
+#keypad div{
+    float:left;
+    width:80px;
+    height:40px;
+    line-height: 40px;
+    text-align: center;
+    margin:10px 9px 10px 9px;
+    background:#fff;
+    border-color: rgb(238, 238, 238) rgb(221, 221, 221) rgb(187, 187, 187);
+    border-width: 1px;
+    border-style: solid;
+    -webkit-border-radius: 5px;
+    border-radius:  5px;
+    box-shadow: rgba(0, 0, 0, 0.14902) 0px 1px 3px;
+    color:#292f33;
+}
+
+#keypad .active{
+    box-shadow: rgba(0, 0, 0, 0.6) 2px 3px 4px;
+    color:#000;
+    background:#bbb;
+}
+#keypad strong{
+    font-family: Georgia,"Times New Roman",Palatino,serif;
+}

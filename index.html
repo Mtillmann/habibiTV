@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>habibi</title>
+    
+    <link rel="stylesheet" type="text/css" href="/bower_components/normalize-css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="/css/habibi.css">
+</head>
+<body>
+
+<object id="oipfAppMan" type="application/oipfApplicationManager" style="position: absolute; left: 0px; top: 0px; width: 0px; height: 0px;"></object>
+<object id="oipfCfg" type="application/oipfConfiguration" style="position: absolute; left: 0px; top: 0px; width: 0px; height: 0px;"></object>
+
+
+<div id="tweets">
+	<div id="hashtag">
+		<div id="logo"></div>
+		<input id="search" placeholder="#hashtag">
+		<button id="go"></button>
+	</div>
+    <div id="loading">
+    	<div id="spinner"></div>
+    </div>
+    <div id="items"></div>
+
+</div>
+
+<div id="keypad">
+    <div data-index="1" id="button_1" class="active"><strong>1</strong> &#9251;</div>
+    <div data-index="2" id="button_2"><strong>2</strong> abc</div>
+    <div data-index="3" id="button_3"><strong>3</strong> def</div>
+    <div data-index="4" id="button_4"><strong>4</strong> ghi</div>
+    <div data-index="5" id="button_5"><strong>5</strong> jkl</div>
+    <div data-index="6" id="button_6"><strong>6</strong> mno</div>
+    <div data-index="7" id="button_7"><strong>7</strong> pqrs</div>
+    <div data-index="8" id="button_8"><strong>8</strong> tuv</div>
+    <div data-index="9" id="button_9"><strong>9</strong> wxyz</div>
+    <div data-index="e" id="button_enter"><span class="green"></span>&#9166;</div>
+    <div data-index="0" id="button_0"><strong>0</strong> -_.</div>
+    <div data-index="b" id="button_backspace"><span class="yellow"></span>&#9003;</div>
+</div>
+
+<div id="redbutton"></div>
+
+	<script type="text/html" id="tweet">
+		<div class="tweet">
+			<div class="name">
+				<img src="{{pic}}">
+				<span class="user">{{user}}</span>
+				<br>
+				<span class="handle">{{handle}}</span>
+			</div>
+			<div class="text">{{text}}</div>
+			<div class="date">{{created}}</div>
+			
+
+		</div>
+	</script>
+
+    
+    <script src="/bower_components/hbbtv_template_app/Samples/redbutton_app/js/keycodes.js"></script>
+    <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="/bower_components/greensock/src/minified/TweenLite.min.js"></script>
+    <script src="/bower_components/greensock/src/minified/plugins/CSSPlugin.min.js"></script>
+    <script src="/bower_components/greensock/src/minified/jquery.gsap.min.js"></script>
+    <script src="/bower_components/icanhaz/ICanHaz.min.js"></script>
+    <script src="/js/keypad.js"></script>
+    <script src="/js/habibi.js"></script>
+</body>
+</html>
