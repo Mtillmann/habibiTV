@@ -8,6 +8,10 @@ instead provides a stream of tweets on the screen.
 
 [Here's a short demo Video](https://plus.google.com/+MartinTillmannCGN/posts/Eck3sTNHbPF)
 
+## Notice
+
+Use this at your own risk! My shitty toshiba crashed and rebooted several times while building this. Your TV experience may suffer. I am not liable if your TV suffers permanent damage! 
+
 ## Setup
 
 1. get a raspberry pi with a wifi adapter and plug it into your tv's usb port  
