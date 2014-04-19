@@ -6,6 +6,8 @@ HBBTV Twitter Client
 removes the "smartTV" crap and covert tracking from your TV and
 instead provides a stream of tweets on the screen.
 
+[Here's a short demo Video](https://plus.google.com/+MartinTillmannCGN/posts/Eck3sTNHbPF)
+
 ## Setup
 
 1. get a raspberry pi with a wifi adapter and plug it into your tv's usb port  
@@ -28,6 +30,8 @@ If the setup was successful a small twitter icon appear on the lower right
 after switching channels. Press the ``red button`` on your remote to open
 the app. Use your remote's cursor buttons or number buttons to enter the
 hashtag you want to stream. Press the red button again to close the app.
+The ``blue button`` will open or close the text input to search for a new
+hashtag.
 
 ## Limits
 
