@@ -1,0 +1,10 @@
+RewriteEngine On
+
+# Change this path, if your TYPO3 installation is located in a subdirectory of $
+RewriteBase /
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+#RewriteRule .* error.html [L]
+RewriteRule .* index.html [L]
