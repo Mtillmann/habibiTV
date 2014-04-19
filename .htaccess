@@ -1,6 +1,5 @@
 RewriteEngine On
 
-# Change this path, if your TYPO3 installation is located in a subdirectory of $
 RewriteBase /
 
 RewriteCond %{REQUEST_FILENAME} !-f
